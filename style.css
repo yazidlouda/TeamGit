@@ -1,0 +1,118 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  header {
+      
+      
+       background-image: url('https://images.theconversation.com/files/344201/original/file-20200626-33533-13frdsm.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop');
+     
+  }
+  
+  #cont {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    
+    .image {
+      width: auto;
+      height: auto;
+    }
+    
+  
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0.9rem;
+      right: 0;
+      height: auto;
+      width: 89%;
+      opacity: 0;
+      transition: .3s ease;
+      background-color: rgb(27, 14, 14);
+    }
+    
+   
+    #cont:hover .overlay {
+      opacity: 1;
+    }
+    
+  
+    .icon {
+      color: white;
+      font-size: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+   
+    .fa-user:hover {
+      color: #eee;
+    }
+    .button {
+        border: none;
+        color: rgb(211, 185, 185);
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #111411;
+      }
+      .dropbtn {
+        background-color: #365038;
+        color: rgb(230, 218, 218);
+        padding: 5px;
+        font-size: 14px;
+        border: solid;
+        border: rgb(204, 58, 58);
+        cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #101310;
+      }
+      
+     
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #d1c2c2;
+        min-width: 230px;
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: rgb(228, 216, 216);}
+      
+      .show {display: block;}
+
+     .row{
+         background-color: darkgray;
+     }
+    
