@@ -4,8 +4,14 @@ html {
   }
   .pirateShip{
     background-image: url(https://images.unsplash.com/photo-1564845654222-d437f029c5c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
-    
+    background-repeat: no-repeat;
     color: white;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-position: center bottom;
+   
+
   }
   
   #happyPirates{
@@ -18,6 +24,14 @@ html {
 /*       
        background-image: url('https://images.theconversation.com/files/344201/original/file-20200626-33533-13frdsm.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop'); */
      
+  }
+  img{
+    padding-bottom: 3rem;
+    text-align: center;
+    
+  }
+  p{
+    font-size: 1.5rem;
   }
   
   #cont {
